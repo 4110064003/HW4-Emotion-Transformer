@@ -29,11 +29,14 @@ so focus on being a good listener and offering emotional validation."""
         self.model = model or settings.MODEL_NAME
         self.conversation_history: List[Dict[str, str]] = []
         
-        # Initialize AISuite client
+        # Get API key
         api_key = settings.get_api_key(self.provider)
         if not api_key:
             raise ValueError(f"API key for {self.provider} not found")
         
+        # Initialize AISuite client with API key in environment
+        import os
+        os.environ['OPENAI_API_KEY'] = api_key
         self.client = ai.Client()
         
         # Add system message to history
