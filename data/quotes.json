@@ -1,0 +1,514 @@
+{
+  "quotes": [
+    {
+      "id": "shawshank-1",
+      "text": "Get busy living, or get busy dying.",
+      "movie": "The Shawshank Redemption",
+      "character": "Andy Dufresne",
+      "year": 1994,
+      "emotions": ["sadness", "disappointment"],
+      "themes": ["perseverance", "choice", "hope"],
+      "genre": "drama"
+    },
+    {
+      "id": "nemo-1",
+      "text": "Just keep swimming.",
+      "movie": "Finding Nemo",
+      "character": "Dory",
+      "year": 2003,
+      "emotions": ["disappointment", "frustration"],
+      "themes": ["perseverance", "optimism"],
+      "genre": "animation"
+    },
+    {
+      "id": "help-1",
+      "text": "You is kind. You is smart. You is important.",
+      "movie": "The Help",
+      "character": "Aibileen Clark",
+      "year": 2011,
+      "emotions": ["loneliness", "sadness"],
+      "themes": ["self-worth", "affirmation"],
+      "genre": "drama"
+    },
+    {
+      "id": "rocky-1",
+      "text": "It ain't about how hard you hit. It's about how hard you can get hit and keep moving forward.",
+      "movie": "Rocky Balboa",
+      "character": "Rocky Balboa",
+      "year": 2006,
+      "emotions": ["disappointment", "frustration"],
+      "themes": ["resilience", "strength"],
+      "genre": "drama"
+    },
+    {
+      "id": "lotr-1",
+      "text": "All we have to decide is what to do with the time that is given us.",
+      "movie": "The Lord of the Rings: The Fellowship of the Ring",
+      "character": "Gandalf",
+      "year": 2001,
+      "emotions": ["anxiety", "fear"],
+      "themes": ["choice", "wisdom"],
+      "genre": "fantasy"
+    },
+    {
+      "id": "hp-1",
+      "text": "Happiness can be found even in the darkest of times, if one only remembers to turn on the light.",
+      "movie": "Harry Potter and the Prisoner of Azkaban",
+      "character": "Albus Dumbledore",
+      "year": 2004,
+      "emotions": ["sadness", "despair"],
+      "themes": ["hope", "optimism"],
+      "genre": "fantasy"
+    },
+    {
+      "id": "lion-king-1",
+      "text": "The past can hurt. But the way I see it, you can either run from it or learn from it.",
+      "movie": "The Lion King",
+      "character": "Rafiki",
+      "year": 1994,
+      "emotions": ["regret", "sadness"],
+      "themes": ["learning", "growth"],
+      "genre": "animation"
+    },
+    {
+      "id": "forrest-gump-1",
+      "text": "Life is like a box of chocolates. You never know what you're gonna get.",
+      "movie": "Forrest Gump",
+      "character": "Forrest Gump",
+      "year": 1994,
+      "emotions": ["anxiety", "uncertainty"],
+      "themes": ["acceptance", "surprise"],
+      "genre": "drama"
+    },
+    {
+      "id": "batman-1",
+      "text": "Why do we fall? So we can learn to pick ourselves up.",
+      "movie": "Batman Begins",
+      "character": "Thomas Wayne",
+      "year": 2005,
+      "emotions": ["disappointment", "failure"],
+      "themes": ["resilience", "learning"],
+      "genre": "action"
+    },
+    {
+      "id": "pursuit-1",
+      "text": "Don't ever let somebody tell you you can't do something. You got a dream, you gotta protect it.",
+      "movie": "The Pursuit of Happyness",
+      "character": "Chris Gardner",
+      "year": 2006,
+      "emotions": ["doubt", "discouragement"],
+      "themes": ["determination", "dreams"],
+      "genre": "drama"
+    },
+    {
+      "id": "shawshank-2",
+      "text": "Hope is a good thing, maybe the best of things, and no good thing ever dies.",
+      "movie": "The Shawshank Redemption",
+      "character": "Andy Dufresne",
+      "year": 1994,
+      "emotions": ["sadness", "despair"],
+      "themes": ["hope", "endurance"],
+      "genre": "drama"
+    },
+    {
+      "id": "star-wars-1",
+      "text": "Do or do not. There is no try.",
+      "movie": "Star Wars: The Empire Strikes Back",
+      "character": "Yoda",
+      "year": 1980,
+      "emotions": ["doubt", "hesitation"],
+      "themes": ["commitment", "action"],
+      "genre": "sci-fi"
+    },
+    {
+      "id": "wizard-oz-1",
+      "text": "You've always had the power, my dear. You just had to learn it for yourself.",
+      "movie": "The Wizard of Oz",
+      "character": "Glinda",
+      "year": 1939,
+      "emotions": ["self-doubt", "inadequacy"],
+      "themes": ["self-discovery", "empowerment"],
+      "genre": "fantasy"
+    },
+    {
+      "id": "good-will-1",
+      "text": "It's not your fault.",
+      "movie": "Good Will Hunting",
+      "character": "Sean Maguire",
+      "year": 1997,
+      "emotions": ["guilt", "shame"],
+      "themes": ["forgiveness", "healing"],
+      "genre": "drama"
+    },
+    {
+      "id": "dead-poets-1",
+      "text": "Carpe diem. Seize the day, boys. Make your lives extraordinary.",
+      "movie": "Dead Poets Society",
+      "character": "John Keating",
+      "year": 1989,
+      "emotions": ["apathy", "listlessness"],
+      "themes": ["inspiration", "action"],
+      "genre": "drama"
+    },
+    {
+      "id": "up-1",
+      "text": "Adventure is out there!",
+      "movie": "Up",
+      "character": "Ellie",
+      "year": 2009,
+      "emotions": ["boredom", "stagnation"],
+      "themes": ["adventure", "excitement"],
+      "genre": "animation"
+    },
+    {
+      "id": "princess-diaries-1",
+      "text": "Courage is not the absence of fear, but rather the judgment that something else is more important than fear.",
+      "movie": "The Princess Diaries",
+      "character": "Mia Thermopolis",
+      "year": 2001,
+      "emotions": ["fear", "anxiety"],
+      "themes": ["courage", "bravery"],
+      "genre": "comedy"
+    },
+    {
+      "id": "interstellar-1",
+      "text": "We used to look up at the sky and wonder at our place in the stars. Now we just look down and worry about our place in the dirt.",
+      "movie": "Interstellar",
+      "character": "Cooper",
+      "year": 2014,
+      "emotions": ["despair", "hopelessness"],
+      "themes": ["hope", "ambition"],
+      "genre": "sci-fi"
+    },
+    {
+      "id": "matrix-1",
+      "text": "Don't think you are. Know you are.",
+      "movie": "The Matrix",
+      "character": "Morpheus",
+      "year": 1999,
+      "emotions": ["self-doubt", "uncertainty"],
+      "themes": ["confidence", "belief"],
+      "genre": "sci-fi"
+    },
+    {
+      "id": "frozen-1",
+      "text": "Let it go.",
+      "movie": "Frozen",
+      "character": "Elsa",
+      "year": 2013,
+      "emotions": ["worry", "stress"],
+      "themes": ["release", "freedom"],
+      "genre": "animation"
+    },
+    {
+      "id": "cinderella-1",
+      "text": "Have courage and be kind.",
+      "movie": "Cinderella",
+      "character": "Ella",
+      "year": 2015,
+      "emotions": ["hurt", "bitterness"],
+      "themes": ["kindness", "strength"],
+      "genre": "fantasy"
+    },
+    {
+      "id": "fight-club-1",
+      "text": "It's only after we've lost everything that we're free to do anything.",
+      "movie": "Fight Club",
+      "character": "Tyler Durden",
+      "year": 1999,
+      "emotions": ["loss", "despair"],
+      "themes": ["freedom", "rebirth"],
+      "genre": "drama"
+    },
+    {
+      "id": "beautiful-mind-1",
+      "text": "I need to believe that something extraordinary is possible.",
+      "movie": "A Beautiful Mind",
+      "character": "John Nash",
+      "year": 2001,
+      "emotions": ["hopelessness", "doubt"],
+      "themes": ["hope", "belief"],
+      "genre": "drama"
+    },
+    {
+      "id": "toy-story-1",
+      "text": "To infinity and beyond!",
+      "movie": "Toy Story",
+      "character": "Buzz Lightyear",
+      "year": 1995,
+      "emotions": ["limitation", "stuck"],
+      "themes": ["ambition", "possibility"],
+      "genre": "animation"
+    },
+    {
+      "id": "king-speech-1",
+      "text": "I have a voice!",
+      "movie": "The King's Speech",
+      "character": "King George VI",
+      "year": 2010,
+      "emotions": ["inadequacy", "fear"],
+      "themes": ["empowerment", "triumph"],
+      "genre": "drama"
+    },
+    {
+      "id": "iron-man-1",
+      "text": "Sometimes you gotta run before you can walk.",
+      "movie": "Iron Man",
+      "character": "Tony Stark",
+      "year": 2008,
+      "emotions": ["impatience", "frustration"],
+      "themes": ["innovation", "boldness"],
+      "genre": "action"
+    },
+    {
+      "id": "mulan-1",
+      "text": "The flower that blooms in adversity is the most rare and beautiful of all.",
+      "movie": "Mulan",
+      "character": "The Emperor",
+      "year": 1998,
+      "emotions": ["hardship", "struggle"],
+      "themes": ["growth", "beauty"],
+      "genre": "animation"
+    },
+    {
+      "id": "inception-1",
+      "text": "You're waiting for a train. A train that will take you far away. You know where you hope this train will take you, but you can't be sure.",
+      "movie": "Inception",
+      "character": "Mal",
+      "year": 2010,
+      "emotions": ["uncertainty", "anxiety"],
+      "themes": ["hope", "journey"],
+      "genre": "sci-fi"
+    },
+    {
+      "id": "greatest-showman-1",
+      "text": "No one ever made a difference by being like everyone else.",
+      "movie": "The Greatest Showman",
+      "character": "P.T. Barnum",
+      "year": 2017,
+      "emotions": ["insecurity", "conformity"],
+      "themes": ["uniqueness", "impact"],
+      "genre": "musical"
+    },
+    {
+      "id": "wonder-1",
+      "text": "Be kind, for everyone is fighting a hard battle.",
+      "movie": "Wonder",
+      "character": "Mr. Browne",
+      "year": 2017,
+      "emotions": ["frustration", "anger"],
+      "themes": ["empathy", "compassion"],
+      "genre": "drama"
+    },
+    {
+      "id": "kung-fu-panda-1",
+      "text": "Yesterday is history, tomorrow is a mystery, but today is a gift. That's why it's called the present.",
+      "movie": "Kung Fu Panda",
+      "character": "Master Oogway",
+      "year": 2008,
+      "emotions": ["regret", "worry"],
+      "themes": ["mindfulness", "present"],
+      "genre": "animation"
+    },
+    {
+      "id": "social-network-1",
+      "text": "We lived on farms, then we lived in cities, and now we're going to live on the internet!",
+      "movie": "The Social Network",
+      "character": "Sean Parker",
+      "year": 2010,
+      "emotions": ["resistance", "fear-of-change"],
+      "themes": ["innovation", "future"],
+      "genre": "drama"
+    },
+    {
+      "id": "hunger-games-1",
+      "text": "Hope is the only thing stronger than fear.",
+      "movie": "The Hunger Games",
+      "character": "President Snow",
+      "year": 2012,
+      "emotions": ["fear", "despair"],
+      "themes": ["hope", "courage"],
+      "genre": "action"
+    },
+    {
+      "id": "ratatouille-1",
+      "text": "Not everyone can become a great artist, but a great artist can come from anywhere.",
+      "movie": "Ratatouille",
+      "character": "Anton Ego",
+      "year": 2007,
+      "emotions": ["self-doubt", "inadequacy"],
+      "themes": ["potential", "excellence"],
+      "genre": "animation"
+    },
+    {
+      "id": "apollo-13-1",
+      "text": "Failure is not an option.",
+      "movie": "Apollo 13",
+      "character": "Gene Kranz",
+      "year": 1995,
+      "emotions": ["defeat", "giving-up"],
+      "themes": ["determination", "perseverance"],
+      "genre": "drama"
+    },
+    {
+      "id": "legally-blonde-1",
+      "text": "Exercise gives you endorphins. Endorphins make you happy. Happy people just don't shoot their husbands.",
+      "movie": "Legally Blonde",
+      "character": "Elle Woods",
+      "year": 2001,
+      "emotions": ["sadness", "stress"],
+      "themes": ["positivity", "self-care"],
+      "genre": "comedy"
+    },
+    {
+      "id": "shrek-1",
+      "text": "Better out than in, I always say!",
+      "movie": "Shrek",
+      "character": "Shrek",
+      "year": 2001,
+      "emotions": ["repression", "holding-back"],
+      "themes": ["expression", "authenticity"],
+      "genre": "animation"
+    },
+    {
+      "id": "inside-out-1",
+      "text": "Crying helps me slow down and obsess over the weight of life's problems.",
+      "movie": "Inside Out",
+      "character": "Sadness",
+      "year": 2015,
+      "emotions": ["overwhelm", "sadness"],
+      "themes": ["processing", "acceptance"],
+      "genre": "animation"
+    },
+    {
+      "id": "breakfast-club-1",
+      "text": "We're all pretty bizarre. Some of us are just better at hiding it.",
+      "movie": "The Breakfast Club",
+      "character": "Andrew Clark",
+      "year": 1985,
+      "emotions": ["loneliness", "isolation"],
+      "themes": ["connection", "normalcy"],
+      "genre": "drama"
+    },
+    {
+      "id": "brave-1",
+      "text": "Our fate lives within us. You only have to be brave enough to see it.",
+      "movie": "Brave",
+      "character": "Merida",
+      "year": 2012,
+      "emotions": ["helplessness", "fear"],
+      "themes": ["empowerment", "courage"],
+      "genre": "animation"
+    },
+    {
+      "id": "coco-1",
+      "text": "Seize your moment.",
+      "movie": "Coco",
+      "character": "Ernesto de la Cruz",
+      "year": 2017,
+      "emotions": ["hesitation", "fear"],
+      "themes": ["opportunity", "action"],
+      "genre": "animation"
+    },
+    {
+      "id": "paddington-1",
+      "text": "If we're kind and polite, the world will be right.",
+      "movie": "Paddington",
+      "character": "Paddington Bear",
+      "year": 2014,
+      "emotions": ["cynicism", "bitterness"],
+      "themes": ["kindness", "optimism"],
+      "genre": "family"
+    },
+    {
+      "id": "chef-1",
+      "text": "When you love what you do, it shows.",
+      "movie": "Chef",
+      "character": "Carl Casper",
+      "year": 2014,
+      "emotions": ["dissatisfaction", "burnout"],
+      "themes": ["passion", "authenticity"],
+      "genre": "comedy"
+    },
+    {
+      "id": "moana-1",
+      "text": "Sometimes our strengths lie beneath the surface.",
+      "movie": "Moana",
+      "character": "Moana",
+      "year": 2016,
+      "emotions": ["inadequacy", "self-doubt"],
+      "themes": ["hidden-potential", "discovery"],
+      "genre": "animation"
+    },
+    {
+      "id": "zootopia-1",
+      "text": "Anyone can be anything.",
+      "movie": "Zootopia",
+      "character": "Judy Hopps",
+      "year": 2016,
+      "emotions": ["limitation", "doubt"],
+      "themes": ["possibility", "empowerment"],
+      "genre": "animation"
+    },
+    {
+      "id": "little-miss-sunshine-1",
+      "text": "Do what you love, and fuck the rest.",
+      "movie": "Little Miss Sunshine",
+      "character": "Dwayne",
+      "year": 2006,
+      "emotions": ["pressure", "conformity"],
+      "themes": ["authenticity", "freedom"],
+      "genre": "comedy"
+    },
+    {
+      "id": "good-morning-vietnam-1",
+      "text": "You know, you're more than your job.",
+      "movie": "Good Morning, Vietnam",
+      "character": "Adrian Cronauer",
+      "year": 1987,
+      "emotions": ["burnout", "identity-crisis"],
+      "themes": ["self-worth", "perspective"],
+      "genre": "comedy"
+    },
+    {
+      "id": "enchanted-1",
+      "text": "True love's kiss.",
+      "movie": "Enchanted",
+      "character": "Giselle",
+      "year": 2007,
+      "emotions": ["loneliness", "longing"],
+      "themes": ["love", "hope"],
+      "genre": "fantasy"
+    },
+    {
+      "id": "big-hero-6-1",
+      "text": "We didn't set out to be superheroes. But sometimes life doesn't go the way you planned.",
+      "movie": "Big Hero 6",
+      "character": "Hiro",
+      "year": 2014,
+      "emotions": ["disappointment", "loss"],
+      "themes": ["adaptation", "growth"],
+      "genre": "animation"
+    },
+    {
+      "id": "secret-life-walter-1",
+      "text": "To see the world, things dangerous to come to, to see behind walls, to draw closer, to find each other and to feel. That is the purpose of life.",
+      "movie": "The Secret Life of Walter Mitty",
+      "character": "Life Magazine Motto",
+      "year": 2013,
+      "emotions": ["stagnation", "meaninglessness"],
+      "themes": ["adventure", "purpose"],
+      "genre": "adventure"
+    },
+    {
+      "id": "eternal-sunshine-1",
+      "text": "Why do I fall in love with every woman I see who shows me the least bit of attention?",
+      "movie": "Eternal Sunshine of the Spotless Mind",
+      "character": "Joel",
+      "year": 2004,
+      "emotions": ["loneliness", "desperation"],
+      "themes": ["self-awareness", "reflection"],
+      "genre": "drama"
+    }
+  ]
+}

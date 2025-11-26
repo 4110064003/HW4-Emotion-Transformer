@@ -1,0 +1,18 @@
+[
+  {
+    "id": "kpop-001",
+    "title": "Spring Day",
+    "artist": "BTS",
+    "emotions": [
+      "sadness",
+      "loneliness",
+      "longing"
+    ],
+    "theme": "Missing someone, hope for reunion",
+    "genre": "K-pop Ballad",
+    "year": 2017,
+    "spotify_url": "https://open.spotify.com/track/0jNaRf4IuDVnbVMP29nGBh",
+    "youtube_url": "https://www.youtube.com/watch?v=xEeFrLSkMm8",
+    "why_it_helps": "溫暖的旋律提醒我們,即使在孤獨中,春天終將到來"
+  }
+]
