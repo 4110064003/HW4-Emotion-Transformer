@@ -1,12 +1,16 @@
-# ✨ Emotion Transformer - AI Chatbot
+# 🎭 Emotion Transformer - K-pop Music Therapy Chatbot
 
-Transform negative thoughts into positive perspectives with AI-powered emotional support and inspirational movie quotes! 🎬
+Transform negative thoughts into positive perspectives with AI-powered emotional support, K-pop music therapy, and inspirational movie quotes! 🎬🎵
 
-Built for AIOT HW4 - A personal AI chatting machine that helps reframe negative emotions and provides motivational movie quotes matched to your emotional state.
+Built for AIOT HW4 - A personal AI chatting machine that helps reframe negative emotions and provides K-pop music recommendations matched to your emotional state.
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-red.svg)
 ![AISuite](https://img.shields.io/badge/AISuite-Latest-green.svg)
+
+## 🚀 Live Demo
+
+**Try it now:** [https://7114064042-emotion-transformer.streamlit.app/](https://7114064042-emotion-transformer.streamlit.app/)
 
 ## 🌟 Features
 
@@ -23,8 +27,15 @@ Transform negative thoughts into constructive perspectives with 4 different styl
 - **Direct** 🎯 - Straightforward, actionable, practical
 - **CBT** 🧠 - Cognitive Behavioral Therapy approach
 
+### 🎵 K-pop Music Therapy
+- **50+ K-pop songs** from BTS, SEVENTEEN, IU, BLACKPINK, and more
+- Emotion-based song matching algorithm
+- Direct YouTube links for instant listening
+- Playlist favorites system
+- Export playlists as TXT files
+
 ### 🎬 Movie Quote Therapist
-- 50+ curated inspirational movie quotes
+- 51+ curated inspirational movie quotes
 - Smart emotion-to-quote matching
 - Favorite quotes feature
 - Export your collection as text file
