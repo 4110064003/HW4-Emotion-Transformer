@@ -16,10 +16,13 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from config.settings import settings
 
-# Set API key in environment for AISuite
+# Set API key in environment for AISuite - must be done before importing AISuite
 api_key = settings.get_api_key("openai")
 if api_key:
     os.environ['OPENAI_API_KEY'] = api_key
+    print(f"✓ API key configured (length: {len(api_key)})")
+else:
+    print("✗ No API key found in environment or secrets")
 
 from src.chatbot.engine import ChatbotEngine
 from src.emotion.analyzer import EmotionAnalyzer

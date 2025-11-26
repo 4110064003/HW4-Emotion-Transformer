@@ -1,5 +1,6 @@
 """Sentence transformation module."""
 import aisuite as ai
+import os
 from config.settings import settings
 
 
@@ -32,6 +33,11 @@ evidence-based alternative perspective. Be gentle but clear. Under 100 words."""
         """Initialize transformer with AISuite client and style."""
         self.client = client
         self.style = style
+        # Ensure API key is in environment
+        if not os.environ.get('OPENAI_API_KEY'):
+            api_key = settings.get_api_key("openai")
+            if api_key:
+                os.environ['OPENAI_API_KEY'] = api_key
     
     def transform(self, original: str, emotion: str = "negative") -> str:
         """Transform negative statement into positive perspective."""
@@ -53,10 +59,10 @@ evidence-based alternative perspective. Be gentle but clear. Under 100 words."""
             return transformed
             
         except Exception as e:
-            error_msg = f"Error in transformation: {str(e)}"
+            error_msg = f"Transformation error: {type(e).__name__}: {str(e)}"
             print(error_msg)
-            # Re-raise the exception so we can see what's wrong
-            raise Exception(f"Failed to transform sentence: {str(e)}")
+            # Return a fallback message instead of raising exception
+            return f"I hear you. It's okay to feel {emotion}. You're not alone in this, and these feelings are valid. Sometimes just acknowledging how we feel is an important first step."
     
     def set_style(self, style: str):
         """Change transformation style."""
